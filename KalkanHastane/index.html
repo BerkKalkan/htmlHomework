@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkan Hastane</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkimizda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+    <h1>Kalkan Hastane</h1>
+    <img src="images/BaşakşehirCityHospital_(1).jpg" alt="">
+    <p>Neden Biz?
+        Uzman Kadro: Tüm branşlarda deneyimli doktorlarımız ve sağlık personelimizle hizmetinizdeyiz.
+        Modern Teknoloji: En son teknolojik cihazlar ve yöntemlerle donatılmış modern altyapımızla yanınızdayız.
+        Hasta Memnuniyeti: Sizlerin memnuniyeti bizim önceliğimizdir. Sağlığınızı en iyi şekilde korumak ve tedavi etmek için çalışıyoruz.</p>
+    </div>
+    <hr>
+    <div>
+        <h2>Hizmetlerimiz</h2>
+        <p>
+            Hizmetlerimiz
+Acil Servis: 7/24 hizmet veren acil servisimiz ile her an yanınızdayız.
+Poliklinikler: Çeşitli branşlarda uzman doktorlarımızla poliklinik hizmetleri.
+Cerrahi: Genel cerrahi, ortopedi, kardiyovasküler cerrahi gibi alanlarda ameliyat hizmetleri.
+Laboratuvar ve Görüntüleme: Modern cihazlarla donatılmış laboratuvar ve görüntüleme hizmetler
+        </p> 
+    </div>
+    <hr>
+    <div>
+        <h2>konumumuz</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.887842087103!2d29.055584!3d41.115140499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caca7b380a4c7d%3A0x523c2a6478264607!2s%C4%B0stinye%20Devlet%20Hastanesi!5e0!3m2!1str!2str!4v1723765950378!5m2!1str!2str" width="400" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <hr>
+    <footer>
+        <div>
+            <h4>randevu icin bilgilerinizi yazin ve iletisime gecelim</h4>
+            <label for="isim">isim</label>
+            <div>
+            <input type="text" name="isim" id="isim" placeholder="Ad Soyad" required>
+            </div>
+            <br>
+            <label for="mail">mail adresiniz</label>
+            <div>
+            <input type="email" name="mail" id="mail" placeholder="mail adresiniz" required>
+            </div>
+            <br>
+            <label for="telefon">telefon numaranız</label>
+            <div>
+            <input type="number" name="telefon" id="telefon" placeholder="telefon numaranız" required>
+            </div>
+            <br>
+            <div>
+                <button onclick=gonder()>Gönder</button>
+            </div>
+        </div>
+            <h3>iletisim icin</h3>
+            <div>
+                <p>watsapp icin <a href="">tiklayin</a></p>
+                <p>mail icin tiklayin <a href="">tiklayin</a></p>
+            </div>
+    </footer>
+    <script>
+        function gonder(){
+            alert("bilgileriniz gonderildi en kisa surede iletisime gececegiz")
+        }
+    </script>
+</body>
+</html>
